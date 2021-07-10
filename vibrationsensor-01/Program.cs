@@ -223,7 +223,7 @@ namespace vibration_device
                 var telemetryMessage = new Message(Encoding.ASCII.GetBytes(telemetryMessageString));
 
                 // Add a custom application property to the message. This is used to route the message.
-                telemetryMessage.Properties.Add("sensorID", "VSTel");
+                telemetryMessage.Properties.Add("sensorID", "VSTel01");
 
                 // Send an alert if the belt has been stopped for more than five seconds.
                 telemetryMessage.Properties.Add("beltAlert", (beltStoppedSeconds > 5) ? "true" : "false");
@@ -246,7 +246,7 @@ namespace vibration_device
                 var loggingMessage = new Message(Encoding.ASCII.GetBytes(loggingMessageString));
 
                 // Add a custom application property to the message. This is used to route the message.
-                loggingMessage.Properties.Add("sensorID", "VSLog");
+                loggingMessage.Properties.Add("sensorID", "VSLog01");
 
                 // Send an alert if the belt has been stopped for more than five seconds.
                 loggingMessage.Properties.Add("beltAlert", (beltStoppedSeconds > 5) ? "true" : "false");
