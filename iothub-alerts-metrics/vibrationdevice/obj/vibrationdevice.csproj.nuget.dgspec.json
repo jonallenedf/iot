@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "/home/jon/repo/iot/iothub-alerts-metrics/vibrationdevice/vibrationdevice.csproj": {}
+    "C:\\repo\\iot\\iothub-alerts-metrics\\vibrationdevice\\vibrationdevice.csproj": {}
   },
   "projects": {
-    "/home/jon/repo/iot/iothub-alerts-metrics/vibrationdevice/vibrationdevice.csproj": {
+    "C:\\repo\\iot\\iothub-alerts-metrics\\vibrationdevice\\vibrationdevice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jon/repo/iot/iothub-alerts-metrics/vibrationdevice/vibrationdevice.csproj",
+        "projectUniqueName": "C:\\repo\\iot\\iothub-alerts-metrics\\vibrationdevice\\vibrationdevice.csproj",
         "projectName": "vibrationdevice",
-        "projectPath": "/home/jon/repo/iot/iothub-alerts-metrics/vibrationdevice/vibrationdevice.csproj",
-        "packagesPath": "/home/jon/.nuget/packages/",
-        "outputPath": "/home/jon/repo/iot/iothub-alerts-metrics/vibrationdevice/obj/",
+        "projectPath": "C:\\repo\\iot\\iothub-alerts-metrics\\vibrationdevice\\vibrationdevice.csproj",
+        "packagesPath": "C:\\Users\\aa02837\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\iot\\iothub-alerts-metrics\\vibrationdevice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\aa02837\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
@@ -62,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
